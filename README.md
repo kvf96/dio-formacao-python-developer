@@ -1,2 +1,3 @@
-# dio-formacao-python-developer
-Formação Python Developer - DIO
+# Formação Python Developer - DIO
+Repositório criado para publicar desafio do curso:
+  * Desafio I - Sistema Bancário com Python
