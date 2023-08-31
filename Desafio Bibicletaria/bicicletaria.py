@@ -1,5 +1,6 @@
 class Bicicleta:
-    # def __init__: método construtor
+    # def __init__: método construtor/inicializador, onde inicializamos o estado do objeto
+    # def __del__: método destrutor, quando uma instância(objeto) é destruida
     # self ou this representa a instância do objeto, explicita
     # self. : atributos da classe
 
@@ -42,8 +43,13 @@ class Bicicleta:
         return f"{self.__class__.__name__}: {', '.join([f'{chave}={valor}' for chave, valor in self.__dict__.items() ])}"
 
 
+    def __del__(self):
+        print("Removendo a instância")
+
 # instância de bicicleta:
 b1 = Bicicleta("rosa", "caloi", 2023, 1000)
+print(b1)
+print(b1)
 print(b1)
 
 # # Chamada de classe pode ser feita: b1.correr() ou Bicicleta.correr(b1)
