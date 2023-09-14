@@ -1,0 +1,9 @@
+***Integrando Python com Banco de dados relacionais utilizando SQLAlchemy***
+
+No terminal do pycharm, fazer as devidas instalações:
+* pip install sqlalchemy
+* pip3 install pymongo (pyhton versao 3)
+* pip install pandas
+
+
+
